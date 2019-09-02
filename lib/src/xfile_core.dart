@@ -10,7 +10,7 @@ class XFile {
   Directory get directory => Directory(file.path);
 
   String _simplifyPath(String path) {
-    return path.replaceAll(RegExp(r'((?<!:)(\\|/)+)|((?<=:)(\\|/)+)'), '/');
+    return path.replaceAll(RegExp(':[/\\\\]+'), '#').replaceAll(RegExp(r'[\\/]+'), '/').replaceAll('#', '://');
   }
 
   XFile.fromFile(File file) {
