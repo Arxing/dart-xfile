@@ -46,10 +46,27 @@ class XFile {
   }
 
   String extension() {
-    return fileName(withExtension: true).split('.').reversed.toList().take(1).first;
+    var segments = fileName(withExtension: true).split(".");
+    return segments.length == 1 ? "" : segments.last;
   }
 
   XFile operator +(String child) {
     return append(child);
+  }
+
+  XFile cdBack() {
+    List<String> segments = [];
+    Uri uri = Uri.parse(file.path);
+    if (uri.host != null && uri.host.isNotEmpty) segments.add(uri.host);
+    if (uri.pathSegments != null && uri.pathSegments.isNotEmpty) {
+      segments.addAll(uri.pathSegments.where((o) => o.isNotEmpty).toList());
+    }
+    String cdPath = (uri.scheme.isNotEmpty ? "${uri.scheme}://" : "/") + segments.reversed.skip(1).toList().reversed.join("/");
+    return XFile.fromPath(cdPath);
+  }
+
+  @override
+  String toString() {
+    return file.toString();
   }
 }

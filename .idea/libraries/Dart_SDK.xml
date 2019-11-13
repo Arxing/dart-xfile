@@ -1,26 +1,26 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/async" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/cli" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/collection" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/convert" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/core" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/developer" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/ffi" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/html" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/indexed_db" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/io" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/isolate" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/js" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/js_util" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/math" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/mirrors" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/svg" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/typed_data" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/web_audio" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/web_gl" />
-      <root url="file://W:/ENV/Dart/dart-sdk/lib/web_sql" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/async" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/cli" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/collection" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/convert" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/core" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/developer" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/ffi" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/html" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/indexed_db" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/io" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/isolate" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/js" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/js_util" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/math" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/mirrors" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/svg" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/typed_data" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/web_audio" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/web_gl" />
+      <root url="file://W:/Env/dart-sdk/dart-sdk-2.5/lib/web_sql" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
