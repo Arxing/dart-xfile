@@ -1,6 +1,7 @@
 name: xfile
-description: A library used like java class 'File'.
-version: 1.0.4
+description: >-
+  Extend on dart `File` for more helpful functions.
+version: 1.1.0
 homepage: https://github.com/Arxing/dart-xfile
 author: Arxing <meiswind711108@gmail.com>
 

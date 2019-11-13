@@ -17,3 +17,7 @@
 ## 1.0.4
 
 - support `cdBack()`
+
+## 1.1.0
+
+- refactor and optimize, support more helpful functions and more easier to use
